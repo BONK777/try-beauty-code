@@ -1,0 +1,313 @@
+* {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+header {
+    height: 30px;
+    /* background-color: #03a9f4; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: ghostwhite;
+    font-size: 2rem;
+    line-height: 35px;
+}
+
+a {
+    font-size: 20px;
+    color: ghostwhite;
+    color: black;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #222;
+    font-size: 1.1rem;
+    line-height: 27px;
+}
+
+.promo-page {
+    min-height: 90vh;
+    /* background-color: olivedrab; */
+    background-image: url('images/promo.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px 40px;
+
+}
+
+.wh-more__btn {
+    border: none;
+    width: 150px;   
+    height: 40px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.club-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.first-photo {
+    background-image: url('images/first.jpg');
+    background-size: cover;
+    width: 280px;
+    height: 500px;
+    margin: 80px;
+    margin-bottom: 0;
+}
+
+.second-photo {
+    background-image: url('images/seccond.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 450px;
+    margin: 80px;
+    margin-top: 0;
+}
+
+.club-box {
+    width: 250px;
+    height: 340px;
+    background-color: #fff;
+    position: absolute;   
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+
+}
+
+.club-txt {
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding: 17px;
+}
+
+.bl-more__btn {
+    border: none;
+    width: 150px;   
+    height: 40px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0;
+    background-color: #000;
+    color: ghostwhite;
+    position: relative;    
+    left: 20%;
+    top: 4%;
+}
+
+.near-club-page {
+    height: 72vh;
+    /* background-color: mediumseagreen; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0 32px 0 32px;
+    font-weight: 800;
+}
+
+.bl-more__btn-2 {
+    border: none;
+    width: 150px;   
+    height: 40px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0;
+    color: ghostwhite;
+    background-color: #000;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.about-bolt {
+    height: 100vh;
+    /* background-color: #03a9f4; */
+    background-color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-bolt-txt {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    padding: 40px;
+    color: ghostwhite;
+}
+
+.bolt-pic {
+    background-image: url('images/usainbolt.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    margin: 20px;
+    align-items: flex-end;
+}
+
+h3 {
+    margin: 10px;
+    color: ghostwhite;
+    font-size: 1.25rem;
+}
+
+.image-box {
+    height: 50vh;
+    /* background-color: #222; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.single-box {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.line {
+    width: 300px;
+    height: 10px;
+    background-color: #000;
+}
+
+.for-single-h {
+    font-weight: 800;
+    font-size: 1.9rem;
+    padding: 30px 10px 30px 10px;
+}
+
+.for-single-p {
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding: 0 40px 0 40px;
+    margin: 0;
+}
+
+.bl-more__btn-3 {
+    border: none;
+    width: 150px;   
+    height: 40px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0;
+    background-color: #000;
+    color: ghostwhite;
+    position: relative;    
+    right: 20%;
+}
+
+.info-partners {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand {
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    background-size: cover;
+}
+
+.for-partner-h {
+    color: ghostwhite;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.for-partner-p {
+    color: ghostwhite;
+    margin: 0;
+    padding: 0 40px 35px 40px;
+    text-align: center;
+}
+
+.bl-submit__btn {
+    border: none;
+    width: 150px;   
+    height: 40px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 0;
+    color: ghostwhite;
+    background-color: #000;
+}
+
